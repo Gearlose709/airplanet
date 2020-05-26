@@ -1,0 +1,40 @@
+
+.navigation-string{
+    height: 50px;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: flex-end;
+    align-content: stretch;
+    margin-top: 45px;
+}
+
+.navigation-string >a{
+    font-family: 'Roboto' ;
+    font-style: italic;
+    color: #6f84cd;
+}
+
+
+
+.crew{
+    font-size: 49px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+.crew-person{
+    cursor: pointer;
+}
+
+
+.crew-photo{
+    border-radius: 100%;
+    transition: .5s;
+}
+
+.crew-person:hover .crew-photo{
+    transform: rotate(-10deg);
+    background-color: royalblue;
+}
