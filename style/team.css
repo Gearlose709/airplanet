@@ -1,40 +1,99 @@
 
-.navigation-string{
-    height: 50px;
-    display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: flex-start;
-	align-items: flex-end;
-    align-content: stretch;
-    margin-top: 45px;
+
+
+.aside-container{
+    height: 1679px;
+
 }
 
-.navigation-string >a{
-    font-family: 'Roboto' ;
-    font-style: italic;
-    color: #6f84cd;
-}
-
-
-
-.crew{
+.word-crew{
     font-size: 49px;
-    font-weight: 700;
-    margin-top: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.crew-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline;
+    align-content: stretch;
+    position: relative;
+
 }
 
 .crew-person{
-    cursor: pointer;
+    margin: 37px 70px 0px 70px;
 }
 
+.crew-top-block{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: baseline;
+	align-content: stretch;
+}
 
 .crew-photo{
     border-radius: 100%;
-    transition: .5s;
 }
 
-.crew-person:hover .crew-photo{
-    transform: rotate(-10deg);
-    background-color: royalblue;
+.crew-bottom-block{
+    margin-top: 14px;
+}
+
+.name-crew{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.position-crew{
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: #5972b1;
+}
+
+.main-info-crew{
+    font-size: 14;
+    font-weight: lighter;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    text-align: center;
+    width: 261px;
+}
+
+/*  */
+
+.word-partners{
+    font-size: 49px;
+    font-weight: bold;
+    margin-top: 78px;
+}
+
+.partners{
+
+}
+
+.partners-list{
+    display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: flex-start;
+    align-content: space-around;
+    height: 400px;
+}
+
+
+.partner{
+    margin: 0px 139px 81px 0px;
+}
+
+.partner-img{
+
 }

@@ -1,0 +1,70 @@
+.aside-container{
+    height: 1250px;
+
+}
+
+.word-comment{
+    font-size: 49px;
+    font-weight: bold;
+    margin-top: 20px;    
+}
+
+.part_for_text{
+    width: 1000px;
+}
+
+
+.comment{
+    float: left;
+    margin-right: 12px;
+    margin-top: 62px;
+}
+
+.commentator-name{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.comment-text{
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.line_between_comments{
+    margin-top: 30px;
+}
+
+/*  */
+
+.green-info{
+    background: #76b46f url(../img/backgrounds/pattern.png);
+    height: 170px;
+    
+}
+
+.booking-questions{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+    align-content: center;
+}
+
+.booking-text{
+    margin-top: 50px;
+    float: left;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.request{
+    font-weight: bold;
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+.phone-number{
+    font-weight: bold;
+    color: #ffffff;
+}

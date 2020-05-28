@@ -45,7 +45,23 @@ html, body {
     padding-right: 20px;
     text-align: right;
 }
+/*  */
+.navigation-string{
+    height: 50px;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: flex-end;
+    align-content: stretch;
+    margin-top: 45px;
+}
 
+.navigation-string >a{
+    font-family: 'Roboto' ;
+    font-style: italic;
+    color: #6f84cd;
+}
 
 /* aside */
 
@@ -55,7 +71,7 @@ height: 1979px;
 float: left;
 width: 15%;
 border: 2px;
-color: coral;
+background-color: coral;
 margin: 0px;
 }
 
